@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://autokey8386-lang.github.io/tho-khoa-luu-dong/sitemap.xml
