@@ -189,6 +189,37 @@ body {
 }
 
 
+/* Banner nổi bật đầu trang */
+.hero-banner {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 35px 20px;
+    background: linear-gradient(135deg, #fff4f4, #ffffff);
+    border: 1px solid #f0dada;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.hero-tagline {
+    color: #c40000;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.hero-description {
+    max-width: 700px;
+    margin: 15px auto;
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+.hero-banner .call-button {
+    margin: 25px auto 0;
+}
+
 
 
 
