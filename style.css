@@ -252,6 +252,20 @@ body {
     text-decoration: underline;
 }
 
+/* Làm nổi bật tiêu đề và liên kết dịch vụ */
+.service h2,
+.service h3,
+.service h4,
+.service a {
+    color: #c40000;
+}
+
+.service h2,
+.service h3,
+.service h4 {
+    font-weight: bold;
+}
+
 
 
 
