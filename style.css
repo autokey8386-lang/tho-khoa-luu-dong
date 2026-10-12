@@ -252,19 +252,23 @@ body {
     text-decoration: underline;
 }
 
-/* Làm nổi bật tiêu đề và liên kết dịch vụ */
-.service h2,
-.service h3,
-.service h4,
-.service a {
-    color: #c40000;
-}
 
-.service h2,
-.service h3,
-.service h4 {
+/* Ép liên kết dịch vụ hiển thị màu đỏ, bỏ gạch chân */
+.service a,
+.service a:link,
+.service a:visited,
+.service a:hover,
+.service a:active {
+    color: #c40000 !important;
+    text-decoration: none !important;
     font-weight: bold;
 }
+
+.service a:hover {
+    color: #8f0000 !important;
+    text-decoration: underline !important;
+}
+
 
 
 
