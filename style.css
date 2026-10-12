@@ -220,6 +220,38 @@ body {
     margin: 25px auto 0;
 }
 
+/* Thẻ dịch vụ trang chủ */
+.service {
+    background-color: #ffffff;
+    padding: 22px;
+    margin: 16px 0;
+    border: 1px solid #eeeeee;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service h3 {
+    margin-top: 0;
+    color: #b80000;
+    font-size: 21px;
+}
+
+.service p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.service a {
+    color: #b80000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.service a:hover {
+    text-decoration: underline;
+}
+
 
 
 
