@@ -269,6 +269,63 @@ body {
     text-decoration: underline !important;
 }
 
+/* Khung lý do nên chọn dịch vụ */
+.why-choose-us {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+}
+
+.why-choose-us h2 {
+    color: #c40000;
+    text-align: center;
+    margin-top: 0;
+}
+
+.why-item {
+    margin: 16px 0;
+    padding: 18px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.why-item h3 {
+    color: #c40000;
+    margin-top: 0;
+}
+
+.why-item p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.why-item a {
+    color: #c40000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .why-choose-us {
+        padding: 16px;
+        margin: 20px auto;
+    }
+
+    .why-item {
+        padding: 14px;
+    }
+
+    .why-item p {
+        font-size: 16px;
+    }
+}
+
+
 
 
 
