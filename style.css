@@ -325,6 +325,57 @@ body {
     }
 }
 
+/* Khung liên hệ */
+.contact-section {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.contact-section h2 {
+    color: #c40000;
+    margin-top: 0;
+}
+
+.contact-section p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.contact-section .contact-phone {
+    color: #c40000;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.contact-section .call-button {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 12px 24px;
+    background: #d90000;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .contact-section {
+        margin: 20px auto;
+        padding: 16px;
+    }
+
+    .contact-section p {
+        font-size: 16px;
+    }
+}
+
 
 
 
