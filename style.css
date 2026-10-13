@@ -431,6 +431,61 @@ body {
     }
 }
 
+/* Nội dung trang sửa chữa cửa cuốn */
+.roller-door-content {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+}
+
+.roller-door-content h2,
+.roller-door-content h3 {
+    color: #c40000;
+}
+
+.roller-door-content h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.roller-door-content p,
+.roller-door-content li {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.roller-door-content li {
+    margin-bottom: 8px;
+}
+
+.roller-door-content .call-button {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 12px 22px;
+    background: #d90000;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .roller-door-content {
+        margin: 20px auto;
+        padding: 16px;
+    }
+
+    .roller-door-content p,
+    .roller-door-content li {
+        font-size: 16px;
+    }
+}
+
 
 
 
