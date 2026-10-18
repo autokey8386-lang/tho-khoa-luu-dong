@@ -486,6 +486,61 @@ body {
     }
 }
 
+/* Khung nội dung dịch vụ két sắt */
+.safe-service-content {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+}
+
+.safe-service-content h2,
+.safe-service-content h3 {
+    color: #c40000;
+}
+
+.safe-service-content h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.safe-service-content p,
+.safe-service-content li {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.safe-service-content li {
+    margin-bottom: 8px;
+}
+
+.safe-service-content .call-button {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 12px 22px;
+    background: #d90000;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .safe-service-content {
+        margin: 20px auto;
+        padding: 16px;
+    }
+
+    .safe-service-content p,
+    .safe-service-content li {
+        font-size: 16px;
+    }
+}
+
 
 
 
