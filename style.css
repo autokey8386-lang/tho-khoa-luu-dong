@@ -374,3 +374,35 @@ p {
         font-size: 22px;
     }
 }
+
+
+.related-areas {
+    max-width: 1000px;
+    margin: 24px auto;
+    padding: 22px;
+    border: 1px solid #f0cccc;
+    border-radius: 12px;
+    background: #fffafa;
+}
+
+.related-areas h2 {
+    color: #b80000;
+    text-align: center;
+}
+
+.related-areas a {
+    color: #b80000;
+    text-decoration: none;
+}
+
+.related-areas a:hover,
+.related-areas a:focus-visible {
+    text-decoration: underline;
+}
+
+@media (max-width: 650px) {
+    .related-areas {
+        margin: 18px auto;
+        padding: 16px;
+    }
+}
