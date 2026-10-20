@@ -406,3 +406,47 @@ p {
         padding: 16px;
     }
 }
+
+
+/* Nút gọi nhanh cố định trên màn hình điện thoại */
+.mobile-call-bar {
+    display: none;
+}
+
+@media (max-width: 650px) {
+    body {
+        padding-bottom: 82px;
+    }
+
+    .mobile-call-bar {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        padding: 10px 12px calc(10px + env(safe-area-inset-bottom));
+        background: #fff;
+        border-top: 1px solid #e7caca;
+        box-shadow: 0 -3px 12px rgba(0, 0, 0, 0.12);
+    }
+
+    .mobile-call-bar a {
+        display: block;
+        width: 100%;
+        padding: 13px 10px;
+        border-radius: 9px;
+        background: #d40000;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.35;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .mobile-call-bar a:focus-visible {
+        outline: 3px solid #222;
+        outline-offset: 2px;
+    }
+}
