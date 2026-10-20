@@ -467,3 +467,31 @@ article[id] {
         scroll-behavior: auto;
     }
 }
+
+
+/* Breadcrumb giúp người đọc nhận biết vị trí hiện tại trên website */
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    max-width: 1000px;
+    margin: 0 auto 14px;
+    padding: 0 4px;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.breadcrumb a {
+    color: #a90000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.breadcrumb a:hover,
+.breadcrumb a:focus-visible {
+    text-decoration: underline;
+}
+.breadcrumb [aria-current="page"] {
+    overflow-wrap: anywhere;
+}
