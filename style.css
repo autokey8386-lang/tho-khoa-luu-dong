@@ -450,3 +450,20 @@ p {
         outline-offset: 2px;
     }
 }
+
+/* Hỗ trợ thao tác bằng bàn phím và người dùng nhạy cảm với chuyển động */
+a:focus-visible {
+    outline: 3px solid #222;
+    outline-offset: 3px;
+}
+
+section[id],
+article[id] {
+    scroll-margin-top: 18px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
