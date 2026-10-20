@@ -415,7 +415,8 @@ p {
 
 @media (max-width: 650px) {
     body {
-        padding-bottom: 82px;
+        /* Chừa chỗ cho nút gọi cố định, kể cả điện thoại có vùng an toàn phía dưới */
+        padding-bottom: calc(82px + env(safe-area-inset-bottom));
     }
 
     .mobile-call-bar {
