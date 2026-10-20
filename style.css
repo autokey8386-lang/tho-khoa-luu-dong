@@ -495,3 +495,28 @@ article[id] {
 .breadcrumb [aria-current="page"] {
     overflow-wrap: anywhere;
 }
+
+
+/* Hoàn thiện khả năng đọc và thao tác trên điện thoại */
+.footer a:not(.back-home) {
+    color: #fff;
+    text-underline-offset: 3px;
+    overflow-wrap: anywhere;
+}
+
+a {
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 650px) {
+    .menu a {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .call-button {
+        min-height: 48px;
+    }
+}
