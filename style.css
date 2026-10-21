@@ -119,6 +119,15 @@ p {
     border-color: #efd5d5;
 }
 
+.hero-illustration {
+    display: block;
+    width: min(100%, 760px);
+    height: auto;
+    margin: 8px auto 22px;
+    border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(100, 0, 0, 0.08);
+}
+
 .hero-tagline {
     margin-bottom: 12px;
     color: #b80000;
