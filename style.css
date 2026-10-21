@@ -200,6 +200,15 @@ p {
     text-align: left;
 }
 
+.service-illustration {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto 16px;
+    border-radius: 12px;
+}
+
 .service p {
     font-size: 16px;
 }
