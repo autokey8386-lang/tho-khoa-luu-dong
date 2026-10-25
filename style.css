@@ -539,3 +539,23 @@ a {
         min-height: 48px;
     }
 }
+
+
+/* Liên kết vị trí Google Maps trong khu vực liên hệ */
+.map-location-link {
+    margin: 16px 0 0;
+    line-height: 1.7;
+}
+.map-location-link a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 4px;
+    color: #a90000;
+    font-weight: 700;
+    text-underline-offset: 3px;
+}
+.map-location-link a:focus-visible {
+    outline: 3px solid #a90000;
+    outline-offset: 3px;
+}
