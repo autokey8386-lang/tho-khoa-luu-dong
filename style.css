@@ -559,3 +559,23 @@ a {
     outline: 3px solid #a90000;
     outline-offset: 3px;
 }
+
+
+/* Đồng bộ màu liên kết trong danh sách khu vực với nhận diện đỏ của website */
+.area-list a {
+    color: #8f0000;
+    text-decoration: none;
+    text-underline-offset: 3px;
+}
+
+.area-list a:hover,
+.area-list a:focus-visible {
+    color: #b80000;
+    text-decoration: underline;
+}
+
+.area-list a:focus-visible {
+    outline: 3px solid #a90000;
+    outline-offset: 3px;
+    border-radius: 3px;
+}
