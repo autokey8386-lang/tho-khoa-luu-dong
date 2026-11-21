@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Minh họa xe máy điện và chìa khóa thông minh</title>
+<desc id="desc">Minh họa một chiếc xe máy điện màu đỏ cùng remote chìa khóa trên nền sáng, dùng cho trang thông tin làm chìa khóa xe máy điện.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff5f5"/><stop offset="1" stop-color="#ffe2e2"/></linearGradient><linearGradient id="bike" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ed2525"/><stop offset="1" stop-color="#a90000"/></linearGradient></defs>
+<rect width="1200" height="675" rx="34" fill="url(#bg)"/><circle cx="1010" cy="130" r="95" fill="#fff" opacity=".6"/><circle cx="190" cy="540" r="125" fill="#fff" opacity=".55"/>
+<g transform="translate(110 90)">
+<circle cx="250" cy="405" r="112" fill="#252525"/><circle cx="250" cy="405" r="66" fill="#d9e0e5"/><circle cx="250" cy="405" r="24" fill="#8b969e"/>
+<circle cx="710" cy="405" r="112" fill="#252525"/><circle cx="710" cy="405" r="66" fill="#d9e0e5"/><circle cx="710" cy="405" r="24" fill="#8b969e"/>
+<path d="M250 405 L365 280 Q390 255 430 260 L570 270 Q620 275 650 325 L710 405" fill="none" stroke="#454b52" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M355 275 Q405 185 520 190 L630 215 Q665 225 680 270 L650 325 L520 330 Q465 325 430 365 L340 365 Q310 350 320 320Z" fill="url(#bike)" stroke="#850000" stroke-width="9"/>
+<path d="M430 190 Q475 135 585 155 L645 180 L620 215 L505 218Z" fill="#343b43"/>
+<path d="M650 270 L710 240 L748 248 L765 275" fill="none" stroke="#343b43" stroke-width="17" stroke-linecap="round"/>
+<path d="M720 245 L760 215" stroke="#343b43" stroke-width="14" stroke-linecap="round"/>
+<path d="M330 320 L285 265 L245 265" fill="none" stroke="#343b43" stroke-width="17" stroke-linecap="round"/>
+<path d="M450 330 L510 330 L545 405" fill="none" stroke="#f4f4f4" stroke-width="10" opacity=".9"/>
+<path d="M520 190 L560 145 L635 145" fill="none" stroke="#343b43" stroke-width="15" stroke-linecap="round"/>
+<rect x="460" y="350" width="115" height="54" rx="20" fill="#4b5560"/>
+<path d="M365 280 Q420 250 465 250" fill="none" stroke="#ffb7b7" stroke-width="10" stroke-linecap="round"/>
+</g>
+<g transform="translate(855 345) rotate(-12)"><rect x="0" y="0" width="180" height="245" rx="42" fill="#242a31"/><rect x="16" y="16" width="148" height="213" rx="32" fill="#414a54"/><circle cx="90" cy="75" r="22" fill="#e8edf0"/><circle cx="90" cy="145" r="22" fill="#e8edf0"/><circle cx="90" cy="145" r="9" fill="#b80000"/><path d="M90 245v36h55" fill="none" stroke="#242a31" stroke-width="18" stroke-linecap="round"/><circle cx="145" cy="281" r="20" fill="none" stroke="#242a31" stroke-width="12"/></g>
+<text x="600" y="625" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#7b1111">XE MÁY ĐIỆN · CHÌA KHÓA THÔNG MINH</text>
+</svg>
