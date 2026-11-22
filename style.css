@@ -598,3 +598,20 @@ a {
 .skip-link:focus {
     transform: translateY(0);
 }
+
+/* Ảnh luôn co giãn theo màn hình, tránh tràn ngang trên điện thoại */
+img,
+picture {
+    max-width: 100%;
+}
+
+img {
+    height: auto;
+}
+
+/* Nội dung dài không làm vỡ bố cục trên màn hình hẹp */
+main,
+section,
+article {
+    min-width: 0;
+}
