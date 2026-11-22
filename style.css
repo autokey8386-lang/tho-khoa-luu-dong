@@ -579,3 +579,22 @@ a {
     outline-offset: 3px;
     border-radius: 3px;
 }
+
+
+/* Liên kết bỏ qua menu, hỗ trợ người dùng bàn phím và trình đọc màn hình */
+.skip-link {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 2000;
+    padding: 10px 14px;
+    transform: translateY(-160%);
+    border-radius: 8px;
+    background: #222;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.skip-link:focus {
+    transform: translateY(0);
+}
